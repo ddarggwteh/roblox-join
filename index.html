@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roblox join</title>
+    
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">ROBLOX<span>FAN</span></div>
+            <nav class="nav">
+                <a href="#about">О платформе</a>
+                <a href="#games">Популярные игры</a>
+                <a href="#studio">Roblox Studio</a>
+                <a href="#contact" class="nav-contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Создавай. Играй. Общайся.</h1>
+            <p>Roblox — это огромная виртуальная вселенная, где миллионы игроков создают свои миры и делятся ими с друзьями!</p>
+            <a href="https://roblox.com" target="_blank" class="btn">Играть Бесплатно</a>
+        </div>
+    </section>
+
+    <!-- Секция: О платформе -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Что такое Roblox?</h2>
+            <div class="about-grid">
+                <div class="card">
+                    <h3>Миллионы плейсов</h3>
+                    <p>От симуляторов выживания до сложных ролевых игр — здесь каждый найдет развлечение по вкусу.</p>
+                </div>
+                <div class="card">
+                    <h3>Уникальный аватар</h3>
+                    <p>Кастомизируй своего персонажа: выбирай одежду, аксессуары, анимации и выделяйся в толпе.</p>
+                </div>
+                <div class="card">
+                    <h3>Общение без границ</h3>
+                    <p>Добавляй друзей, создавай группы и играй вместе на любых устройствах: ПК, консолях и телефонах.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция: Популярные игры -->
+    <section id="games" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Топ Игр Этого Сезона</h2>
+            <div class="games-list">
+                <div class="game-item">
+                    <div class="game-badge">#1</div>
+                    <div class="game-info">
+                        <h3>Adopt Me!</h3>
+                        <p>Выращивай питомцев, обустраивай свой дом и торгуй с другими игроками в самом популярном симуляторе.</p>
+                    </div>
+                </div>
+                <div class="game-item">
+                    <div class="game-badge">#2</div>
+                    <div class="game-info">
+                        <h3>Blox Fruits</h3>
+                        <p>Стань величайшим мастером меча или используй силу волшебных фруктов, сражаясь с грозными боссами.</p>
+                    </div>
+                </div>
+                <div class="game-item">
+                    <div class="game-badge">#3</div>
+                    <div class="game-info">
+                        <h3>Brookhaven RP</h3>
+                        <p>Погрузись в симуляцию реальной жизни: покупай крутые машины, строй виллы и общайся в уютном городе.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция: Разработка -->
+    <section id="studio" class="section">
+        <div class="container studio-box">
+            <h2>Хочешь создать свою игру?</h2>
+            <p>Скачивай бесплатную программу <strong>Roblox Studio</strong>, изучай язык программирования Lua и зарабатывай реальную игровую валюту (Robux) на своих творениях!</p>
+        </div>
+    </section>
+
+    <!-- НОВАЯ СЕКЦИЯ: Связаться с автором -->
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Связаться с автором</h2>
+            <div class="contact-wrapper">
+                
+                <!-- Левая колонка: Прямые контакты -->
+                <div class="contact-info">
+                    <h3>Остались вопросы?</h3>
+                    <p class="contact-desc">Если у тебя есть предложения по сайту, крутые идеи для игр или ты просто хочешь поболтать — пиши или звони мне!</p>
+                    
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div>
+                            <h4>Телефон:</h4>
+                            <!-- Замените номер на свой. На мобилках по клику начнется вызов -->
+                            <a href="tel:+996104466" class="phone-link">+996 706104466</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">💬</span>
+                        <div>
+                            <h4>Мессенджеры:</h4>
+                            <div class="social-buttons">
+                                <!-- Ссылки на соцсети (замените логины на свои) -->
+
+                                <a href="https://wa.me" target="_blank" class="social-btn wa">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Правая колонка: Форма отправки сообщения -->
+                <div class="contact-form-container">
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Твой ник или имя:</label>
+                            <input type="text" id="name" name="username" placeholder="Например, Builderman" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="msg">Сообщение:</label>
+                            <textarea id="msg" name="message" rows="4" placeholder="Привет! Отличный сайт..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn form-btn">Отправить</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <p>&copy; 2026 RobloxFan Site. Все права защищены. Создано для фанатов.</p>
+    </footer>
+       
+    <!-- ВСЕ СТИЛИ ТЕПЕРЬ ТУТ, ОНИ ТОЧНО ЗАРАБОТАЮТ 👇 -->
+    <style>
+        /* Обнуление базовых стилей */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        /* Переменные для быстрой смены цветов */
+        :root {
+            --main-bg: #191B1D;
+            --card-bg: #222529;
+            --accent-color: #00A2FF;
+            --text-light: #FFFFFF;
+            --text-gray: #B3B3B3;
+        }
+
+        body {
+            background-color: var(--main-bg);
+            color: var(--text-light);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Шапка сайта */
+        .header {
+            background-color: rgba(25, 27, 29, 0.95);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            border-bottom: 2px solid #2d3136;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: var(--accent-color);
+        }
+
+        .nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .nav a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Главный баннер */
+        .hero {
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(25,27,29,1)), url('https://unsplash.com') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-top: 70px;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            color: var(--text-gray);
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: var(--text-light);
+            padding: 15px 35px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #0082cc;
+            transform: translateY(-2px);
+        }
+
+        /* Секции общего назначения */
+        .section {
+            padding: 80px 0;
+        }
+
+        .bg-dark {
+            background-color: #121314;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* О платформе - Сетка карточек */
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-color);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .card p {
+            color: var(--text-gray);
+            line-height: 1.6;
+        }
+
+        /* Популярные игры - Список */
+        .games-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .game-item {
+            display: flex;
+            align-items: center;
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .game-badge {
+            background-color: var(--accent-color);
+            font-size: 24px;
+            font-weight: bold;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .game-info h3 {
+            margin-bottom: 5px;
+        }
+
+        .game-info p {
+            color: var(--text-gray);
+            font-size: 15px;
+        }
+
+        /* Секция Roblox Studio */
+        .studio-box {
+            background: linear-gradient(135deg, #222529 0%, #1e3c72 100%);
+            padding: 50px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .studio-box h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .studio-box p {
+            color: #e0e0e0;
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Блок контактов */
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-top: 30px;
+        }
+
+        .contact-info h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--text-light);
+        }
+
+        .contact-desc {
+            color: var(--text-gray);
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .info-icon {
+            font-size: 24px;
+            margin-right: 15px;
+            background: rgba(0, 162, 255, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .info-item h4 {
+            font-size: 14px;
+            color: var(--text-gray);
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .phone-link {
+            color: var(--accent-color);
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .phone-link:hover { color: #e6e6e6; }
+
+        .social-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .social-btn {
+            padding: 8px 16px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            transition: opacity 0.2s;
+        }
+
+        .social-btn:hover { opacity: 0.8; }
+        .social-btn.tg { background-color: #0088cc; }
+        .social-btn.wa { background-color: #25D366; }
+
+        .contact-form-container {
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #2d3136;
+        }
+
+        .form-group { margin-bottom: 20px; }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: var(--text-gray);
+        }
+
+        .form-group input, 
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--main-bg);
+            border: 2px solid #2d3136;
+            border-radius: 6px;
+            color: white;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus, 
+        .form-group textarea:focus {
+            border-color: var(--accent-color);
+        }
+
+        .form-btn {
+            width: 100%;
+            cursor: pointer;
+            border: none;
+        }
+
+        .nav-contact {
+            border: 1px solid var(--accent-color);
+            padding: 5px 12px;
+            border-radius: 4px;
+        }
+
+        .nav-contact:hover {
+            background-color: var(--accent-color);
+            color: white !important;
+        }
+
+        .footer {
+            background-color: #0d0e0f;
+            text-align: center;
+            padding: 30px;
+            color: var(--text-gray);
+            font-size: 14px;
+            border-top: 1px solid #191b1d;
+        }
+
+        /* Адаптивность для телефонов */
+        @media (max-width: 768px) {
+            .header .container {
+                flex-direction: column;
+                justify-content: center;
+                gap: 15px;
+                height: auto;
+                padding: 15px 0;
+            }
+            .nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+            .hero h1 { font-size: 28px; padding: 0 10px; }
+            .hero-content p { font-size: 15px; padding: 0 15px; }
+            .about-grid { grid-template-columns: 1fr !important; gap: 20px; }
+            .game-item { flex-direction: column; text-align: center; gap: 10px; }
+            .game-badge { margin-right: 0; }
+            .contact-wrapper { grid-template-columns: 1fr !important; gap: 30px; }
+            .section { padding: 50px 0; }
+            .studio-box { padding: 30px 20px; }
+        }
+    </style>
+
+</body>
+</html>
